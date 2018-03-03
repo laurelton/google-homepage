@@ -1,0 +1,70 @@
+div {
+    border-style: double;
+    border-width: 3px;
+    border-color: royalblue;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-menu {
+    display: flex;
+}
+
+.right-menu {
+    display: flex;
+}
+
+.button-text {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+button {
+    width: 200px;
+}
+
+input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-box {
+    justify-content: space-around;
+}
